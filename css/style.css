@@ -66,3 +66,35 @@ body {
 .bottom-line {
   bottom: 0px;
 }
+
+.container {
+  width: 600px;
+  margin: 30px auto 0;
+}
+
+.tab-list {
+  display: flex;
+}
+
+.tab-item {
+  background: #ffffff;
+  color: #333333;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.tab-item.active {
+  background: #333333;
+  color: #ffffff;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab-inner {
+  display: none;
+  background: #333333;
+  padding: 15px;
+}
+
+.tab-inner.active {
+  display: block;
+}
