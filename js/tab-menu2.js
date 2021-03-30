@@ -9,5 +9,7 @@ $(function () {
     tabInner.removeClass("active");
 
     $("#" + $(this).data("id")).addClass("active");
+
+    return false;
   });
 });
